@@ -1,0 +1,70 @@
+.verticalImg{
+    height:700px;
+    width:500px;
+}
+
+.horizontalImg{
+    height:500px;
+    width: 800px;
+}
+
+#project_list{
+    list-style-type:none;
+}
+
+body{
+    background-color: #252c55;
+    color:#eff3e2;
+    /*font-size: 62.5%;*/
+}
+
+#header_div{
+    display: flex;
+    justify-content: center;
+    font-size: 21pt;
+}
+
+#nav_div{
+    display: flex;
+    justify-content: center;
+    margin-right:35px;
+    font-size: 20pt;
+}
+
+#about_me_div{
+    background-color: #8e8fa3;
+    border-radius: 20px;
+    width:60%;
+    margin:auto;
+    padding:15px;
+    margin-bottom: 15px;
+    font-size: 15pt;
+}
+
+#projects_div{
+    background-color: #8e8fa3;
+    border-radius: 20px;
+    width:60%;
+    margin:auto;
+    padding:15px;
+    margin-bottom: 15px;
+    font-size: 15pt;
+}
+
+#contact_me_div{
+    background-color: #8e8fa3;
+    border-radius: 20px;
+    width:60%;
+    height:50px;
+    margin:auto;
+    padding:10px;
+    font-size: 20pt;
+}
+
+a{
+    color:#f7e28f;
+}
+
+#contact_me{
+    display: inline;
+}
