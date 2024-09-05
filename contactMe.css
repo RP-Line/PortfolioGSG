@@ -1,0 +1,26 @@
+
+body{
+    background-color: #252c55;
+    color:#eff3e2;
+}
+
+/* table, th, td {
+    border:1px solid #f7e28f;
+    font-size:20pt;
+} */
+
+table{
+    margin:auto;
+    background-color: #8e8fa3;
+    border:1px solid #f7e28f;
+    font-size:20pt;
+    padding:25px;
+}
+
+#submitbtn_td{
+    justify-content: center;
+}
+
+#submitbtn{
+    width: 90%;
+}

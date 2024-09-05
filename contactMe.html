@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me <3</title>
+    <title>Contact me </title>
+            <link rel="stylesheet" href="contactMe.css">
 </head>
+
 <body>
-    <form>
-        <label>First Name</label>
-        <input type="text">
-        <label>Email</label>
-        <input type="email">
-        <label>Message</label>
-        <textarea></textarea>
-        <input type="submit" value="Submit">
-    </form>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input id="name" class="input" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input id="email" class="input" type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="msg">Leave a Message</label>
+                    </td>
+                    <td>
+                        <textarea id="msg" class="input"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="submitbtn_td" colspan="2"><input id="submitbtn" type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
 </body>
+
 </html>
